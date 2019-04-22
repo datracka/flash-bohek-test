@@ -1,0 +1,8 @@
+.vscode
+node_modules
+.DS_Store
+diysna/settings.cfg
+.idea
+__pycache__
+*.pyc
+.env

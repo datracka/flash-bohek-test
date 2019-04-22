@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+flask-graphql = "*"
+graphene = "*"
+python-twitter = "*"
+bokeh = "*"
+pandas = "*"
+networkx = "*"
+wtforms = "*"
+plotly = "*"
+tweepy = "*"
+
+[requires]
+python_version = "3.7"

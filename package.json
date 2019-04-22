@@ -1,0 +1,21 @@
+{
+  "name": "flask-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/datracka/flask-hello-world.git",
+  "author": "Vicens Fayos <datracka@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --progress -d --watch",
+    "build": "webpack --mode production",
+    "serve": "export FLASK_ENV=development && pipenv run python app.py"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
