@@ -118,7 +118,7 @@ def render_from_fb_combined():
     print(nx.info(G))
 
     plot = Plot(background_fill_color="white",
-                plot_width=800, plot_height=600,
+                sizing_mode="stretch_both",
                 x_range=Range1d(-0.5, 0.5), y_range=Range1d(-0.5, 0.5))
 
     graph_renderer = from_networkx(
