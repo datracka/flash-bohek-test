@@ -133,7 +133,7 @@ def render_from_fb_combined():
     plot.add_tools(ResetTool())
     plot.add_tools(PanTool())
     plot.add_tools(HoverTool(
-        tooltips=[("index", "aaaa"), ("club", "bbbb")]))
+        tooltips=[("user", "datracka"), ("url", "https://twitter.com/datracka")]))
     plot.add_tools(PointDrawTool(
         renderers=[], empty_value='black'))
 
